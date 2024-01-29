@@ -1,6 +1,3 @@
-# TP-FINAL-NLP
-
-
 # Trabajo Práctico Final Procesamiento del Lenguaje Natural
 
 En este repo encontraremos el trabajo práctico final de la asignatura Procesamiento del Lenguaje Natural, de la Tecnicatura Univesitaria en Inteligencia Artificial.
@@ -46,7 +43,28 @@ Realice un informe con los resultados de la investigación y con el esquema del 
 Opcional: Resolución con código de dicho escenario.
 
 
+Fuentes de datos utilzadas:
+
+*   `Datos tabulares`: Resultados de todos los mundiales de la FIFA
+
+*   `Base de Grafos` : Información de que equipo eliminó a que equipo en la instancia final de la Copa de la Liga 2023 Argentina.
+
+*   `Base de datos vectorial ChromaDB`: Informacion del reglamento oficial de la FIFA.
+
+
+
 El repositorio contiene 3 archivos:
  - `COPA DE LA LIGA 2023.pdf` : Información que ulilizaremos para realizar una base de datos de grafos.
+   
  - `Resultados Mundial.xlsx` : Información que ulilizaremos como fuente de datos tabulares.
- - `TP FINAL NLP.ipynb` : Colab con el codigo python y explicacion del proyecto.
+   
+ - `TP FINAL NLP.ipynb` : Netbook con la resolución de ambos ejercicios y explicacion del proyecto.
+
+
+Guia para entablar una conversación con el chatbot:
+ 1 - Cambiar el tipo de entorno de colab a `T4 GPU` de la siguiente manera: `Entorno de ejecución` -> `Cambiar tipo de entorno de ejecución` -> `T4 GPU` -> `Guardar`
+ 2 - Subir los archivos `pdf` y `xlxs` brindados.
+ 3 - Ejecutar todas las celdas.
+ 4 - En la celda final podrá hacer las preguntas que desee sobre la información brindada.
+
+
