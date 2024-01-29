@@ -62,9 +62,12 @@ El repositorio contiene 3 archivos:
 
 
 Guia para entablar una conversación con el chatbot:
- 1 - Cambiar el tipo de entorno de colab a `T4 GPU` de la siguiente manera: `Entorno de ejecución` -> `Cambiar tipo de entorno de ejecución` -> `T4 GPU` -> `Guardar`
- 2 - Subir los archivos `pdf` y `xlxs` brindados.
- 3 - Ejecutar todas las celdas.
- 4 - En la celda final podrá hacer las preguntas que desee sobre la información brindada.
+  1 - Cambiar el tipo de entorno de colab a `T4 GPU` de la siguiente manera: `Entorno de ejecución` -> `Cambiar tipo de entorno de ejecución` -> `T4 GPU` -> `Guardar`
+ 
+  2 - Subir los archivos `pdf` y `xlxs` brindados.
+ 
+  3 - Ejecutar todas las celdas.
+  
+  4 - En la celda final podrá hacer las preguntas que desee sobre la información brindada.
 
 
