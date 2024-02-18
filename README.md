@@ -45,20 +45,23 @@ Opcional: Resolución con código de dicho escenario.
 
 Fuentes de datos utilzadas:
 
-*   `Datos tabulares`: Resultados de todos los mundiales de la FIFA
+*   `Datos tabulares`: Resultados de todos los mundiales de la FIFA. (Carpeta `Data`)
 
-*   `Base de Grafos` : Información de que equipo eliminó a que equipo en la instancia final de la Copa de la Liga 2023 Argentina.
+*   `Base de Grafos` : Información de que equipo eliminó a que equipo en la instancia final de la Copa de la Liga 2023 Argentina. (Carpeta `Data`)
 
-*   `Base de datos vectorial ChromaDB`: Informacion del reglamento oficial de la FIFA.
+*   `Base de datos vectorial ChromaDB`: Informacion del reglamento oficial de la FIFA. (Se extren directamente desde la nube en el Google Colab)
 
 
 
 El repositorio contiene 3 archivos:
- - `COPA DE LA LIGA 2023.pdf` : Información que ulilizaremos para realizar una base de datos de grafos.
+
+ - `Data` : Carpeta donde se encuentran los datos que serán utilizandos como fuentes de información de nuestro chatbot.
+
+ - `Chatbot_NLP_Loza_Santiago.ipynb` : Netbook con la resolución del ejercicio 1 del TP.
    
- - `Resultados Mundial.xlsx` : Información que ulilizaremos como fuente de datos tabulares.
+ - `Tp Final NLP - Loza Santiago.pdf` : Informe donde se encuentran detalladas las deciciones que se tomaron para llevar a cabo el ejercicio 1. Y, además, contiene la resolución del ejercicio 2.
    
- - `TP FINAL NLP.ipynb` : Netbook con la resolución de ambos ejercicios y explicacion del proyecto.
+ 
 
 
 Guia para entablar una conversación con el chatbot:
@@ -67,10 +70,11 @@ Guia para entablar una conversación con el chatbot:
   
   `Entorno de ejecución` -> `Cambiar tipo de entorno de ejecución` -> `T4 GPU` -> `Guardar`
  
-  2 - Subir los archivos `pdf` y `xlxs` brindados.
+  2 - Subir los archivos `pdf` y `xlxs` brindados en la carpeta `Data`.
  
   3 - Ejecutar todas las celdas.
   
   4 - En la celda final podrá hacer las preguntas que desee sobre la información brindada.
+
 
 
